@@ -1,0 +1,73 @@
+body{
+    margin: 0;                          /*Margin for all body elements*/
+    font-family: 'Poppins', sans-serif;   /*Declare the font family or name*/
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+.top-banner{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.biography-banner{
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-banner{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.quarter-half-width{
+    width: 30%;
+    float: right;
+    padding-right:0px;
+    margin-right:2.5%;
+}
+.quarter-half-width img{
+    width: 100%;
+}
+.center-item{
+    text-align: center;
+    padding-bottom: 20px;
+}
+section{
+    height: 500px;
+    padding-bottom: 300px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(233, 144, 159), rgb(160, 81, 130));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.mail-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(233, 144, 159), rgb(160, 81, 130));
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+    width: 30%;
+    padding:20px
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+footer p{
+    text-align: center;
+}
